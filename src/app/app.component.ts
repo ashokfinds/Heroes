@@ -1,10 +1,18 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-BB8',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'BB8';
+
+// message(value){
+// 	console.log(value)
+// }
+
+//   ngOnInit(){
+//   	this.message('Helloo '+ this.title)
+//   }
 }
